@@ -1,2 +1,0 @@
-# nbrgodlike.github.io
-portfolio
