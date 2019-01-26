@@ -1,0 +1,326 @@
+/*===============   АДАПТИВ    ===============*/
+
+@media(min-width:0px) and (max-width:320px){
+    .right{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .cloud-1{
+        display: none;
+    }
+    .cloud-2{
+        display: none;
+    }
+    .note::after {
+        left: 125px;
+    }
+    .contacts-container {
+        text-align: center;
+    }
+    .heart-icon{
+        padding-top: 14px;
+        padding-bottom: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
+    .heart-plus{
+        width: 25px; height: 25px;
+        line-height: 25px;
+        left: 43%; top: 70%;
+    }
+    .heart-plus i{
+        font-size: 20px;
+    }
+    .heart-icon img{
+        height: 40px; width: 40px;
+    }
+    .hello-box{
+        margin-top: 50px;
+        max-width: 262px;
+    }
+    .hello-box h3{
+        font-size: 12px;
+        margin: 0 15px;
+    }
+    .arrow-down-container {
+        width: 51px;
+        height: 51px;
+        bottom: -1%;
+    }
+    .arrow {
+        left: 8px;
+        top: 8px;
+        width: 35px;
+        height: 35px;
+    }
+    .btn-about-container{
+        justify-content: center;
+    }
+    #arrow-up-container {
+        width: 51px;
+        height: 51px;
+        bottom: 8%;
+    }
+    #arrow-up {
+        left: 8px;
+        top: 8px;
+        width: 35px;
+        height: 35px;
+    }
+    .further-info-wrapper {
+        background: none;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 83px;
+    }
+    .list-check p {
+        font-size: 12px;
+        text-align: left;
+    }
+    .list-check li::before {
+        top: 0px;
+    }
+    .form-wrapper input[type=text] {
+        width: 255px;
+    }
+    .btn {
+        padding: 15px 70px;
+    }
+    .card{
+        margin-left: 40px;
+    }
+    .about-container {
+        text-align: center;
+        margin: 0; padding: 0;
+    }
+    .btn-about{
+        margin-bottom: 10px; margin-right: 5px;
+    }
+    .column-two {
+        margin-top: 5%;
+    }
+    .footer-logo {
+        flex-flow: wrap;
+        justify-content: center;
+    }
+    .footer-menu {
+        justify-content: center;
+    }
+    .footer-menu ul {
+        width: 200px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media(min-width:321px) and (max-width:480px){
+    .heading{
+        justify-content: center;
+    }
+    .right{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .note::after {
+        left: 125px;
+    }
+    .contacts-container {
+        flex-flow: column;
+        text-align: center;
+    }
+    .btn-about-container{
+        justify-content: center;
+    }
+    .heart-icon{
+        padding-top: 14px;
+        padding-bottom: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
+    .heart-plus{
+        width: 25px; height: 25px;
+        line-height: 25px;
+        left: 43%; top: 70%;
+    }
+    .heart-plus i{
+        font-size: 20px;
+    }
+    .heart-icon img{
+        height: 40px; width: 40px;
+    }
+    .hello-box{
+        margin-top: 50px;
+        max-width: 262px;
+    }
+    .cloud-1{
+        display: none;
+    }
+    .cloud-2{
+        display: none;
+    }
+    .hello-box h3{
+        font-size: 12px;
+        margin: 0 15px;
+    }
+    .arrow-down-container {
+        width: 51px;
+        height: 51px;
+        bottom: -1%;
+    }
+    .arrow {
+        left: 8px;
+        top: 8px;
+        width: 35px;
+        height: 35px;
+    }
+    #arrow-up-container {
+        width: 51px;
+        height: 51px;
+        bottom: 8%;
+    }
+    #arrow-up {
+        left: 8px;
+        top: 8px;
+        width: 35px;
+        height: 35px;
+    }
+    .further-info-wrapper {
+        background: none;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 83px;
+    }
+    .list-check p {
+        font-size: 12px;
+        text-align: left;
+    }
+    .list-check li::before {
+        top: 0px;
+    }
+    .form-wrapper input[type=text] {
+        width: 300px;
+        margin: 0 auto;
+    }
+    form{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    }
+    .btn-wrapper {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+    .btn {
+        padding: 15px 70px;
+    }
+    .about-container {
+        text-align: center;
+        margin: 0; padding: 0;
+    }
+    .btn-about{
+        margin-top: 0px; margin-bottom: 10px; margin-right: 5px;
+    }
+    .card{
+        margin: 0;
+        margin-top: 40px;
+    }
+    .card-container {
+        justify-content: center;
+    }
+    .column{
+        margin: 0;
+    }
+    .column-two {
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    .footer-logo {
+        flex-flow: wrap;
+        justify-content: center;
+    }
+    .footer-menu {
+        justify-content: center;
+    }
+    .footer-menu ul {
+        width: 200px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(min-width:481px) and (max-width:768px){
+    .hello-box {
+        width: 560px;
+    }
+    .hello-box h3 {
+        width: 560px;
+    }
+    .further-info-wrapper{
+        background: none;
+        text-align: center;
+    }
+    .cloud-1{
+        display: none;
+    }
+    .cloud-2{
+        display: none;
+    }
+    .further-info-block {
+        margin: 0 auto;
+    }
+    .justify-between {
+        justify-content: center;
+    }
+    .about-container {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 550px;
+        padding-top: 60px;
+        text-align: center;
+    }
+    .footer-logo {
+        flex-flow: wrap;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-menu {
+        justify-content: center;
+        width: 100%;
+    }
+    .footer-menu ul {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(min-width:482px) and (max-width:1024px){
+    .further-info-wrapper{
+        background: none;
+        text-align: center;
+    }
+    .about-container {
+        max-width: 350px;
+    }
+    .btn-about {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .cloud-1{
+        display: none;
+    }
+    .cloud-2{
+        display: none;
+    }
+    .further-info-block {
+        margin: 0 auto;
+    }
+}
